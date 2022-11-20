@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F3F3F4;
+  font-family: 'Outfit', sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.box_div{
+  width: 30%;
+}
+.box{
+    border: 2px solid #D0D0D5;
+    padding: 20px;
+    line-height: 60px;
+  }
+@media screen and (max-width: 768px){
+
+    .box{
+      line-height: 45px;
+    }
+}

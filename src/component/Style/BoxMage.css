@@ -1,0 +1,49 @@
+
+.box_div{
+  width: 30%;
+}
+#places{
+  width: 250px;
+  padding: 10px 30px;
+}
+
+
+.box-mage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+.box-mage .box{
+  margin: 40px;
+}
+.box{
+  border: 2px solid #D0D0D5;
+  padding: 20px;
+}
+.box h4{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+.box p{
+  font-size: 13px;
+  padding: 10px;
+}
+.box img{
+  width: 7%;
+}
+
+.Icon{
+    display: flex;
+    flex-direction: column;
+  }
+  .Icon img{
+    padding: 70px;
+  }
+  
+
+@media screen and (max-width: 768px){}
